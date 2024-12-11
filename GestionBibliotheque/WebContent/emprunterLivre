@@ -1,0 +1,16 @@
+<%@ page contentType="text/html;charset=UTF-8" %>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Emprunter un livre</title>
+</head>
+<body>
+    <h2>Emprunter un livre</h2>
+    <form action="emprunts" method="post">
+        <input type="hidden" name="action" value="emprunter">
+        <label>ID du livre :</label>
+        <input type="text" name="livreId" required><br>
+        <button type="submit">Emprunter</button>
+    </form>
+</body>
+</html>
